@@ -1,0 +1,76 @@
+{
+    "ramen": [
+        {
+            "id": 1,
+            "name": "Tonkotsu ramen",
+            "price": 180000,
+            "available": true
+        },
+        {
+            "id": 2,
+            "name": "Shoyu ramen",
+            "price": 160000,
+            "available": true
+        }
+    ],
+    "sushi": [
+        {
+            "id": 3,
+            "name": "Tempura",
+            "price": 130000,
+            "available": true
+        },
+        {
+            "id": 4,
+            "name": "Sashimi",
+            "price": 130000,
+            "available": true
+        },
+        {
+            "id": 5,
+            "name": "Maki",
+            "price": 120000,
+            "available": true
+        },
+        {
+            "id": 6,
+            "name": "Salmon Nigiri",
+            "price": 150000,
+            "available": true
+        },
+        {
+            "id": 7,
+            "name": "Squid Nigiri",
+            "price": 140000,
+            "available": false
+        }
+    ],
+    "seasoning": [
+        {
+            "id": 8,
+            "name": "Wasabi",
+            "price": 30000,
+            "available": true
+        }
+    ],
+    "drinks": [
+         {
+            "id": 9,
+            "name": "Sake",
+            "price": 80000,
+            "available": true
+        },
+        {
+            "id": 10,
+            "name": "Soju",
+            "price": 30000,
+            "available": false
+        },
+        {
+            "id": 11,
+            "name": "Oolong tea",
+            "price": 30000,
+            "available": true
+        }
+    ]
+}

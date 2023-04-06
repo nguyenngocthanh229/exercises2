@@ -1,0 +1,46 @@
+[
+  {
+    "customer": "Thanh",
+    "table": 1,
+    "order": [
+      { "id": 1, "quantity": 1 },
+      { "id": 6, "quantity": 2 },
+      { "id": 8, "quantity": 1 }
+    ]
+  },
+  {
+    "customer": "Van",
+    "table": 1,
+    "order": [
+      { "id": 1, "quantity": 1 },
+      { "id": 6, "quantity": 2 }
+    ]
+  },
+  { "customer": "Dat", "table": 1, "order": [{ "id": 3, "quantity": 4 }] },
+  {
+    "customer": "Hoang",
+    "table": 1,
+    "order": [
+      { "id": 2, "quantity": 1 },
+      { "id": 5, "quantity": 4 }
+    ]
+  },
+  {
+    "customer": "Du",
+    "table": 1,
+    "order": [
+      { "id": 2, "quantity": 1 },
+      { "id": 5, "quantity": 4 }
+    ]
+  },
+  {
+    "customer": "Huy",
+    "table": 1,
+    "order": [
+      { "id": 1, "quantity": 1 },
+      { "id": 2, "quantity": 1 },
+      { "id": 4, "quantity": 3 }
+    ],
+    "total": 730000
+  }
+]
