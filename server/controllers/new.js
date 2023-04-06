@@ -54,39 +54,7 @@ const createOrders =async (req, res) => {
   res.status(200).json(allOrders)
   res.json("OK")
 };
-// const createOrders = async (req, res) => {
-//   const { orders, customer, table } = req.body;
 
-//   try {
-//     // Kiểm tra xem các món ăn có tồn tại trong hệ thống và còn sẵn có hay không
-//     const allMenu = await New.getMenu();
-//     const validOrders = [];
-//     let total = 0;
-//     for (const order of orders) {
-//       const menuItem = allMenu.find(item => item.id === order.id);
-//       if (menuItem && menuItem.available) {
-//         validOrders.push({ id: menuItem.id, name: menuItem.name, quantity: order.quantity, price: menuItem.price });
-//         total += menuItem.price * order.quantity;
-//       }
-//     }
-
-//     // Tạo đơn hàng và lưu vào tệp JSON
-//     const formattedOrder = {
-//       customer: customer,
-//       table: table,
-//       order: validOrders,
-//       total: total
-//     };
-//     const allOrders = await addOrder(formattedOrder);
-
-//     // Trả về chi tiết đơn hàng và tổng số tiền
-//     res.status(200).json(formattedOrder);
-//   } catch (error) {
-//     // Xử lý lỗi và trả về thông báo lỗi
-//     console.error(error);
-//     res.status(500).json({ message: "Có lỗi xảy ra khi đặt hàng!" });
-//   }
-// };
 
 module.exports = {
   getMenu,

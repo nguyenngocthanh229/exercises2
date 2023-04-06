@@ -2,7 +2,7 @@ const fs = require("fs/promises");
 
 // Lấy tất cả sản phẩm
 const getAllOrder = async ()=>{
-    // Lấy tất cả sản phẩm từ file json bằng fs ---- vì fs readfile là bất đồng bộ nên sẽ xử lý theo promise/async await
+    // Lấy tất cả sản phẩm từ file json bằng fs 
     const data = await fs.readFile("./data/orders.json")
     // Vì data nhận về là kiểu string nên phải convert về JSON đê thao tác 
     return JSON.parse(data);

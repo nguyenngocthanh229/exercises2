@@ -42,5 +42,15 @@
       { "id": 4, "quantity": 3 }
     ],
     "total": 730000
+  },
+  {
+    "customer": "Tuan",
+    "table": 1,
+    "order": [
+      { "id": 1, "quantity": 3 },
+      { "id": 2, "quantity": 1 },
+      { "id": 4, "quantity": 1 }
+    ],
+    "total": 830000
   }
 ]
